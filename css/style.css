@@ -39,8 +39,18 @@ footer{
     width: calc(100% / 7);
 }
 
-.content{
 
+
+
+/*PAGE STYLES*/
+.content{
+    
+}
+
+.label{
+    position: relative;
+    bottom: 30px;
+    left: 0px; 
 }
 
 
