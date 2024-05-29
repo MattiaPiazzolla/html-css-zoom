@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
+    background-color: black;
     font-family: sans-serif;
     height: 100%;
 }
@@ -15,7 +15,15 @@ header{
 .header-buttons{
     position: fixed;
     right: 0px;
-    top: 5px;
+    top: 15px;
+}
+
+.header-button{
+    padding: 5px 5px;
+    background-color: #494949;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
 }
 
 
@@ -46,16 +54,14 @@ footer{
 .col-14{
     width: calc(100% / 7);
     min-width: 150px;
-    padding: 20px 5px 0 5px;    
+    padding: 20px 2.5px 0 2.5px;    
 }
 
 .col-25{
     width: 25%;
-    background-color: yellowgreen;
 }
 .col-50{
     width: 50%;
-    background-color: antiquewhite;
 }
 
 
@@ -64,10 +70,13 @@ footer{
 
 .label{
     position: relative;
-    bottom: 30px;
+    bottom: 25px;
     left: 0px; 
     color: #fff;
     font-size: 12.5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    display: inline-block;
 }
 
 
@@ -79,6 +88,29 @@ footer{
     aspect-ratio: 16/9;
 }
 
+.align-center{
+    text-align: center;
+}
+.align-end{
+    text-align: end;
+}
+
+footer button{
+    padding: 5px;
+    background-color: #222222;
+    border: none;
+}
+
 .footer-button{
-    align-items: center;
+    color: #fff;
+}
+.icon-footer i{
+    font-size: 25px;
+}
+
+.red{
+    color: #FA030C;
+    font-size: 12.5px;
+    padding: 30px 10px;
+    background-color: #4A4A4A;
 }
