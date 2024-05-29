@@ -80,9 +80,10 @@ footer{
     left: 0px; 
     color: #fff;
     font-size: 12.5px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 5px;
     display: inline-block;
+    transition: 0.3s;
 }
 .container-footer{
     width: 100vw;
@@ -148,4 +149,8 @@ button{
 
 footer button:hover{
     color: #59e004;
+}
+
+.content:hover .label{
+    background-color: rgba(0, 0, 0, 0.6);
 }
